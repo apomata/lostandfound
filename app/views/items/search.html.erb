@@ -1,8 +1,9 @@
+<link href="assets/stylesheets/search.css" rel="stylesheet" type="text/css">
 <div class="col-md-offset-1 col-md-4">
   <h1>
   Search
   </h1>
- 
+
 	<%= form_tag("/items/search", method: "get") do %>
  		<div class= "drop_down">
  			<%= label_tag(:s, "Seach for “Any of these conditions (OR)” vs. “All of these conditions (AND)") %>
